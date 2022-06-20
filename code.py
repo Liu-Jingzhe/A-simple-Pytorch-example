@@ -13,7 +13,8 @@ transform = transforms.Compose(
 
 batch_size = 4
 num_workers = 0
-
+a = 13
+d = a
 ############# Dataset #############
 
 trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=transform)
